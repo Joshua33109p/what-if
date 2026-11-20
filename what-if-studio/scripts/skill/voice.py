@@ -16,7 +16,7 @@ import base64, hashlib, json, re, sys, time
 
 import numpy as np
 
-from wi import SR, api, spent_since, decode, ep_dir, load_episode, load_json, log_cost, out_dir, pub_dir, save_json, target_status, write_wav
+from wi import SR, api, credits_used, spent_since, decode, ep_dir, load_episode, load_json, log_cost, out_dir, pub_dir, save_json, target_status, write_wav
 
 slug = sys.argv[1]
 force = '--force' in sys.argv
@@ -29,8 +29,17 @@ raw_mp3 = pub_dir(slug) / 'voice_raw.mp3'
 raw_words = out_dir(slug) / 'words_raw.json'
 meta = load_json(out_dir(slug) / 'voice_meta.json', {})
 
+
+def counter():
+    try:
+        return credits_used()[0]
+    except Exception:
+        return None
+
+
 if force or meta.get('sig') != sig or not raw_mp3.exists() or not raw_words.exists():
     print(f'{len(text)} characters to ElevenLabs (voice {V["id"]})')
+    before = counter()
     t0 = time.time()
     res = json.loads(api(f'/v1/text-to-speech/{V["id"]}/with-timestamps?output_format=mp3_44100_128', {'text': text, 'model_id': V['model'], 'voice_settings': V['settings']}))
     raw_mp3.write_bytes(base64.b64decode(res['audio_base64']))
@@ -55,7 +64,14 @@ if force or meta.get('sig') != sig or not raw_mp3.exists() or not raw_words.exis
     save_json(raw_words, words)
     save_json(out_dir(slug) / 'voice_meta.json', {'sig': sig, 'chars': len(text)})
     used, n = spent_since(t0, expect=1)
-    log_cost(slug, 'voice', used, f'{len(text)} characters' + ('' if n else '; not in the history yet, check the usage page'))
+    if not used and before is not None:
+        after = counter()
+        if after is not None:
+            used = max(0, after - before)
+    note = f'{len(text)} characters'
+    if not n:
+        note += '; history unavailable, used the account counter'
+    log_cost(slug, 'voice', used, note)
 else:
     print('Voice unchanged since the last call: reusing it (no credits).')
 

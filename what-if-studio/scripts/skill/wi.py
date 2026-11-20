@@ -124,7 +124,12 @@ def spent_since(t0, expect=1, tries=6):
     cost (the subscription counter lags). Waits a little for `expect` items to appear. Returns (credits, items)."""
     items = []
     for i in range(tries):
-        h = json.loads(api('/v1/history?page_size=100'))
+        try:
+            h = json.loads(api('/v1/history?page_size=100'))
+        except urllib.error.HTTPError as e:
+            if e.code in (401, 403):
+                return 0, 0
+            raise
         items = [it for it in h.get('history', []) if it.get('date_unix', 0) >= int(t0) - 2]
         if len(items) >= expect:
             break

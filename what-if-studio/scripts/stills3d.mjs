@@ -31,7 +31,16 @@ if (framesAt >= 0) {
   const composition = await selectComposition({ serveUrl, id: ep.id, ...renderOptions });
   for (const fr of rest.map(Number)) {
     const output = path.join(outDir, `f${String(fr).padStart(4, '0')}.png`);
-    await renderStill({ serveUrl, composition, frame: fr, output, overwrite: true, scale, ...renderOptions });
+    await renderStill({
+      serveUrl,
+      composition,
+      frame: fr,
+      output,
+      overwrite: true,
+      scale,
+      timeoutInMilliseconds: 120000,
+      ...renderOptions,
+    });
     process.stdout.write(`${fr} `);
   }
 } else {
@@ -42,7 +51,16 @@ if (framesAt >= 0) {
   for (const id of want) {
     const i = tl.shots.findIndex((s) => s.id === id);
     if (i < 0) throw new Error(`No shot ${id} in the timeline`);
-    await renderStill({ serveUrl, composition, frame: i, output: path.join(outDir, `${id}.png`), overwrite: true, scale, ...renderOptions });
+    await renderStill({
+      serveUrl,
+      composition,
+      frame: i,
+      output: path.join(outDir, `${id}.png`),
+      overwrite: true,
+      scale,
+      timeoutInMilliseconds: 120000,
+      ...renderOptions,
+    });
     process.stdout.write(`${id} `);
   }
 }
