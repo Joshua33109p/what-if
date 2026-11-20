@@ -9,24 +9,24 @@ if [[ ! -f "$studio/src/episodes/$slug/episode.json" ]]; then
   echo "No episode at $studio/src/episodes/$slug/episode.json" >&2
   exit 1
 fi
-if [[ ! -f "$skill/scripts/master.py" ]]; then
-  echo "Set SKILL_DIR to the what-if-animation skill folder (missing $skill/scripts/master.py)" >&2
+if [[ ! -f "$skill/master.py" ]]; then
+  echo "Set SKILL_DIR to the folder containing master.py (missing $skill/master.py)" >&2
   exit 1
 fi
 
 cd "$studio"
 
 if [[ "${REGENERATE_VOICE:-0}" == "1" ]]; then
-  python "$skill/scripts/voice.py" "$slug"
+  python "$skill/voice.py" "$slug"
 elif [[ ! -f "public/$slug/voice.wav" ]]; then
   echo "No cached voice at public/$slug/voice.wav; enable regenerate_voice." >&2
   exit 1
 fi
 
-python "$skill/scripts/plan.py" "$slug"
+python "$skill/plan.py" "$slug"
 
 if [[ "${GENERATE_SFX:-0}" == "1" ]]; then
-  python "$skill/scripts/sfx.py" "$slug"
+  python "$skill/sfx.py" "$slug"
 fi
 
-python "$skill/scripts/master.py" "$slug" --concurrency "${CONCURRENCY:-4}"
+python "$skill/master.py" "$slug" --concurrency "${CONCURRENCY:-4}"
