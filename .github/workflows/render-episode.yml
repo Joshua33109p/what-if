@@ -1,0 +1,79 @@
+name: Render What If episode
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: Episode slug under what-if-studio/src/episodes
+        required: true
+        default: borrow-skill-3d
+      concurrency:
+        description: Remotion render concurrency
+        required: false
+        default: "4"
+      regenerate_voice:
+        description: Call ElevenLabs for a new voice take (uses credits)
+        type: boolean
+        default: false
+      generate_sfx:
+        description: Call ElevenLabs for missing sound clips (uses credits)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: what-if-studio
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: what-if-studio/package-lock.json
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python helpers
+        run: python -m pip install --upgrade pip numpy Pillow
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Ensure Remotion browser
+        run: npx remotion browser ensure
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Render and master
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          REGENERATE_VOICE: ${{ inputs.regenerate_voice && '1' || '0' }}
+          GENERATE_SFX: ${{ inputs.generate_sfx && '1' || '0' }}
+          CONCURRENCY: ${{ inputs.concurrency }}
+        run: bash scripts/render-pipeline.sh "${{ inputs.slug }}"
+
+      - name: Upload episode artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: what-if-${{ inputs.slug }}
+          path: what-if-studio/out/${{ inputs.slug }}/
+          if-no-files-found: warn

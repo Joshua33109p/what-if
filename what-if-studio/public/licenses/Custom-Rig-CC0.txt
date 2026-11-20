@@ -1,0 +1,18 @@
+Custom Rig (custom_rig.glb) - What If Studio
+Copyright waived to the extent permitted by law.
+
+This work is dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The author(s) have waived all copyright and related or neighboring rights
+to this work worldwide. You may copy, modify, distribute, sell, and use it
+for any purpose, including commercial productions, without attribution.
+
+The rig, meshes, facial blendshapes and animation clips in
+public/models/custom/custom_rig.glb were generated from the original
+procedural definitions in rig/custom_rig/ for this project. No third-party
+character mesh, skeleton or animation data is included.
+
+Template text for the dedication:
+To the extent possible under law, the author(s) have waived all copyright
+and related or neighboring rights to this work.

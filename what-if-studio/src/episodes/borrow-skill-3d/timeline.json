@@ -1,0 +1,781 @@
+{
+ "slug": "borrow-skill-3d",
+ "title": "WHAT IF YOU COULD BORROW A SKILL?",
+ "fps": 30,
+ "total": 3612,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 84,
+   "t0": 0,
+   "t1": 84,
+   "line": "Imagine you could borrow any skill for ten minutes. Not learn"
+  },
+  {
+   "shot": "S2",
+   "a": 84,
+   "b": 168,
+   "t0": 0,
+   "t1": 84,
+   "line": "it. Borrow it. You sit at a piano, and your"
+  },
+  {
+   "shot": "S3",
+   "a": 168,
+   "b": 252,
+   "t0": 0,
+   "t1": 84,
+   "line": "hands already know Chopin. You step into an"
+  },
+  {
+   "shot": "S4",
+   "a": 252,
+   "b": 351,
+   "t0": 0,
+   "t1": 99,
+   "line": "operating room, and a surgeon's muscle memory takes over. You"
+  },
+  {
+   "shot": "S5",
+   "a": 351,
+   "b": 420,
+   "t0": 0,
+   "t1": 69,
+   "line": "launch a basketball from half court, and the net"
+  },
+  {
+   "shot": "S6",
+   "a": 420,
+   "b": 504,
+   "t0": 0,
+   "t1": 84,
+   "line": "doesn't even move. Ten minutes of genius."
+  },
+  {
+   "shot": "S7",
+   "a": 504,
+   "b": 588,
+   "t0": 0,
+   "t1": 84,
+   "line": "No practice. No years. No failure."
+  },
+  {
+   "shot": "S8",
+   "a": 588,
+   "b": 682,
+   "t0": 0,
+   "t1": 94,
+   "line": "For ten minutes, the impossible is ordinary."
+  },
+  {
+   "shot": "S9",
+   "a": 682,
+   "b": 759,
+   "t0": 0,
+   "t1": 77,
+   "line": "What if you could borrow a skill for ten minutes?"
+  },
+  {
+   "shot": "S10",
+   "a": 759,
+   "b": 837,
+   "t0": 0,
+   "t1": 78,
+   "line": "One rule: while you use it, the owner"
+  },
+  {
+   "shot": "S11",
+   "a": 837,
+   "b": 915,
+   "t0": 0,
+   "t1": 78,
+   "line": "loses it. The pianist forgets the piece."
+  },
+  {
+   "shot": "S12",
+   "a": 915,
+   "b": 993,
+   "t0": 0,
+   "t1": 78,
+   "line": "The surgeon freezes. The champion can't find the rim."
+  },
+  {
+   "shot": "S13",
+   "a": 993,
+   "b": 1071,
+   "t0": 0,
+   "t1": 78,
+   "line": "And the clock is already running. Ten minutes is"
+  },
+  {
+   "shot": "S14",
+   "a": 1071,
+   "b": 1149,
+   "t0": 0,
+   "t1": 78,
+   "line": "shorter than it sounds. At first, it feels like a cheat"
+  },
+  {
+   "shot": "S15",
+   "a": 1149,
+   "b": 1227,
+   "t0": 0,
+   "t1": 78,
+   "line": "code. Ace the exam. Fix the engine."
+  },
+  {
+   "shot": "S16",
+   "a": 1227,
+   "b": 1305,
+   "t0": 0,
+   "t1": 78,
+   "line": "Land the trick. Play the song your grandmother loves."
+  },
+  {
+   "shot": "S17",
+   "a": 1305,
+   "b": 1383,
+   "t0": 0,
+   "t1": 78,
+   "line": "For ten minutes, you are the person you"
+  },
+  {
+   "shot": "S18",
+   "a": 1383,
+   "b": 1461,
+   "t0": 0,
+   "t1": 78,
+   "line": "always wanted to be. The skill doesn't just live"
+  },
+  {
+   "shot": "S19",
+   "a": 1461,
+   "b": 1530,
+   "t0": 0,
+   "t1": 69,
+   "line": "in your hands. It lives in your head, in"
+  },
+  {
+   "shot": "S20",
+   "a": 1530,
+   "b": 1599,
+   "t0": 0,
+   "t1": 69,
+   "line": "the quiet part of your brain that turns thought into motion."
+  },
+  {
+   "shot": "S21",
+   "a": 1599,
+   "b": 1647,
+   "t0": 0,
+   "t1": 48,
+   "line": "You don't just know the move."
+  },
+  {
+   "shot": "S22",
+   "a": 1647,
+   "b": 1691,
+   "t0": 0,
+   "t1": 44,
+   "line": "You feel it coming."
+  },
+  {
+   "shot": "S23",
+   "a": 1691,
+   "b": 1770,
+   "t0": 0,
+   "t1": 79,
+   "line": "But here's the cost. While you borrow the skill,"
+  },
+  {
+   "shot": "S24",
+   "a": 1770,
+   "b": 1848,
+   "t0": 0,
+   "t1": 78,
+   "line": "the owner loses it. The pianist forgets the piece."
+  },
+  {
+   "shot": "S25",
+   "a": 1848,
+   "b": 1926,
+   "t0": 0,
+   "t1": 78,
+   "line": "The surgeon freezes at the table. The free-"
+  },
+  {
+   "shot": "S26",
+   "a": 1926,
+   "b": 2004,
+   "t0": 0,
+   "t1": 78,
+   "line": "throw champion can't find the rim. And there's a reason."
+  },
+  {
+   "shot": "S27",
+   "a": 2004,
+   "b": 2082,
+   "t0": 0,
+   "t1": 78,
+   "line": "Your cerebellum holds about eighty percent of your"
+  },
+  {
+   "shot": "S28",
+   "a": 2082,
+   "b": 2142,
+   "t0": 0,
+   "t1": 60,
+   "line": "brain's neurons. It is the part that"
+  },
+  {
+   "shot": "S29",
+   "a": 2142,
+   "b": 2241,
+   "t0": 0,
+   "t1": 99,
+   "line": "makes movement smooth and automatic. Borrow that, and you're"
+  },
+  {
+   "shot": "S30",
+   "a": 2241,
+   "b": 2340,
+   "t0": 0,
+   "t1": 99,
+   "line": "not copying a talent. You're taking the machinery behind it."
+  },
+  {
+   "shot": "S31",
+   "a": 2340,
+   "b": 2439,
+   "t0": 0,
+   "t1": 99,
+   "line": "That's real. And the person you borrowed from is standing in the dark,"
+  },
+  {
+   "shot": "S32",
+   "a": 2439,
+   "b": 2538,
+   "t0": 0,
+   "t1": 99,
+   "line": "wondering what they lost. Which means the world notices."
+  },
+  {
+   "shot": "S33",
+   "a": 2538,
+   "b": 2637,
+   "t0": 0,
+   "t1": 99,
+   "line": "A coach. A hospital. A stranger who suddenly can't do"
+  },
+  {
+   "shot": "S34",
+   "a": 2637,
+   "b": 2736,
+   "t0": 0,
+   "t1": 99,
+   "line": "the one thing they built their life around. They don't know your name,"
+  },
+  {
+   "shot": "S35",
+   "a": 2736,
+   "b": 2835,
+   "t0": 0,
+   "t1": 99,
+   "line": "but they know something is missing. The crowd is watching. The cameras"
+  },
+  {
+   "shot": "S36",
+   "a": 2835,
+   "b": 2934,
+   "t0": 0,
+   "t1": 99,
+   "line": "are rolling. And the clock is still running. You can't hide"
+  },
+  {
+   "shot": "S37",
+   "a": 2934,
+   "b": 3033,
+   "t0": 0,
+   "t1": 99,
+   "line": "a missing skill. Now you have ten minutes left. You can finish"
+  },
+  {
+   "shot": "S38",
+   "a": 3033,
+   "b": 3132,
+   "t0": 0,
+   "t1": 99,
+   "line": "the performance. Save the patient. Win the game. Or"
+  },
+  {
+   "shot": "S39",
+   "a": 3132,
+   "b": 3231,
+   "t0": 0,
+   "t1": 99,
+   "line": "you can give it back, and go back to being ordinary. The person you borrowed"
+  },
+  {
+   "shot": "S40",
+   "a": 3231,
+   "b": 3330,
+   "t0": 0,
+   "t1": 99,
+   "line": "from is waiting. And they are not the only one. Because if a skill"
+  },
+  {
+   "shot": "S41",
+   "a": 3330,
+   "b": 3429,
+   "t0": 0,
+   "t1": 99,
+   "line": "can be borrowed, it can be kept. What happens when the clock hits"
+  },
+  {
+   "shot": "S42",
+   "a": 3429,
+   "b": 3528,
+   "t0": 0,
+   "t1": 99,
+   "line": "zero, and you don't let go? The orb goes dark. Then"
+  },
+  {
+   "shot": "S43",
+   "a": 3528,
+   "b": 3612,
+   "t0": 0,
+   "t1": 84,
+   "line": "it opens its eyes."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 40,
+   "len": 84,
+   "first": 0,
+   "line": "Imagine you could borrow any skill for ten minutes. Not learn",
+   "note": "Pip walks in from the dark, the piano and the glowing orb waiting ahead"
+  },
+  {
+   "id": "S2",
+   "size": "medium",
+   "key": 40,
+   "len": 84,
+   "first": 84,
+   "line": "it. Borrow it. You sit at a piano, and your",
+   "note": "Pip at the piano, hands hovering, the orb pulsing over the keys"
+  },
+  {
+   "id": "S3",
+   "size": "macro insert",
+   "key": 36,
+   "len": 84,
+   "first": 168,
+   "line": "hands already know Chopin. You step into an",
+   "note": "hands strike the keys; a ribbon of warm light lifts off"
+  },
+  {
+   "id": "S4",
+   "size": "wide",
+   "key": 40,
+   "len": 99,
+   "first": 252,
+   "line": "operating room, and a surgeon's muscle memory takes over. You",
+   "note": "Mo crosses the library toward the surgical bay, the overhead lamp blooming on"
+  },
+  {
+   "id": "S5",
+   "size": "wide",
+   "key": 40,
+   "len": 69,
+   "first": 351,
+   "line": "launch a basketball from half court, and the net",
+   "note": "Mo launches the ball across the library, the orb trailing the release"
+  },
+  {
+   "id": "S6",
+   "size": "insert",
+   "key": 36,
+   "len": 84,
+   "first": 420,
+   "line": "doesn't even move. Ten minutes of genius.",
+   "note": "the ball drops through the net without touching it"
+  },
+  {
+   "id": "S7",
+   "size": "wide",
+   "key": 40,
+   "len": 84,
+   "first": 504,
+   "line": "No practice. No years. No failure.",
+   "note": "Pip and Mo share the warm library, the orb floating between them"
+  },
+  {
+   "id": "S8",
+   "size": "wide, slow push",
+   "key": 36,
+   "len": 94,
+   "first": 588,
+   "line": "For ten minutes, the impossible is ordinary.",
+   "note": "both characters under the lamp; the impossible feels ordinary"
+  },
+  {
+   "id": "S9",
+   "size": "title, wide",
+   "key": 60,
+   "len": 77,
+   "first": 682,
+   "line": "What if you could borrow a skill for ten minutes?",
+   "note": "the title over the whole dusk library; both characters small under the lamp"
+  },
+  {
+   "id": "S10",
+   "size": "medium",
+   "key": 40,
+   "len": 78,
+   "first": 759,
+   "line": "One rule: while you use it, the owner",
+   "note": "Pip holds the orb; a countdown ring drains around it"
+  },
+  {
+   "id": "S11",
+   "size": "insert",
+   "key": 36,
+   "len": 78,
+   "first": 837,
+   "line": "loses it. The pianist forgets the piece.",
+   "note": "the rule lands: the orb brightens, the ring ticks down"
+  },
+  {
+   "id": "S12",
+   "size": "medium",
+   "key": 40,
+   "len": 78,
+   "first": 915,
+   "line": "The surgeon freezes. The champion can't find the rim.",
+   "note": "Mo at the piano, hands frozen above the keys, confused"
+  },
+  {
+   "id": "S13",
+   "size": "medium",
+   "key": 40,
+   "len": 78,
+   "first": 993,
+   "line": "And the clock is already running. Ten minutes is",
+   "note": "Pip at the surgical table, suddenly still, the lamp buzzing"
+  },
+  {
+   "id": "S14",
+   "size": "wide, slow push",
+   "key": 48,
+   "len": 78,
+   "first": 1071,
+   "line": "shorter than it sounds. At first, it feels like a cheat",
+   "note": "the clock is already running; the room leans into shadow"
+  },
+  {
+   "id": "S15",
+   "size": "wide",
+   "key": 40,
+   "len": 78,
+   "first": 1149,
+   "line": "code. Ace the exam. Fix the engine.",
+   "note": "Pip plays, the library warming, the orb orbiting the keys"
+  },
+  {
+   "id": "S16",
+   "size": "medium",
+   "key": 40,
+   "len": 78,
+   "first": 1227,
+   "line": "Land the trick. Play the song your grandmother loves.",
+   "note": "Pip smiles; the borrowed skill looks effortless"
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "key": 40,
+   "len": 78,
+   "first": 1305,
+   "line": "For ten minutes, you are the person you",
+   "note": "Mo shoots again, confident, the ball arcing toward the net"
+  },
+  {
+   "id": "S18",
+   "size": "insert",
+   "key": 36,
+   "len": 78,
+   "first": 1383,
+   "line": "always wanted to be. The skill doesn't just live",
+   "note": "nothing but net; the orb flashes gold"
+  },
+  {
+   "id": "S19",
+   "size": "medium",
+   "key": 40,
+   "len": 69,
+   "first": 1461,
+   "line": "in your hands. It lives in your head, in",
+   "note": "Mo turns the orb over, smug, the countdown reflected in his eyes"
+  },
+  {
+   "id": "S20",
+   "size": "close-up",
+   "key": 36,
+   "len": 69,
+   "first": 1530,
+   "line": "the quiet part of your brain that turns thought into motion.",
+   "note": "Pip laughs, lit by the orb"
+  },
+  {
+   "id": "S21",
+   "size": "wide",
+   "key": 44,
+   "len": 48,
+   "first": 1599,
+   "line": "You don't just know the move.",
+   "note": "the two of them in the warm library, the orb between them"
+  },
+  {
+   "id": "S22",
+   "size": "over the shoulder",
+   "key": 40,
+   "len": 44,
+   "first": 1647,
+   "line": "You feel it coming.",
+   "note": "Pip at the keys, the orb reflected in the polished wood"
+  },
+  {
+   "id": "S23",
+   "size": "wide, low angle",
+   "key": 44,
+   "len": 79,
+   "first": 1691,
+   "line": "But here's the cost. While you borrow the skill,",
+   "note": "the light shifts; Mo at the piano as his hands begin to shake"
+  },
+  {
+   "id": "S24",
+   "size": "medium",
+   "key": 40,
+   "len": 78,
+   "first": 1770,
+   "line": "the owner loses it. The pianist forgets the piece.",
+   "note": "Mo tries the same phrase and nothing comes; the orb dims"
+  },
+  {
+   "id": "S25",
+   "size": "wide",
+   "key": 44,
+   "len": 78,
+   "first": 1848,
+   "line": "The surgeon freezes at the table. The free-",
+   "note": "Pip at the table, frozen, the surgical lamp flickering"
+  },
+  {
+   "id": "S26",
+   "size": "close-up",
+   "key": 36,
+   "len": 78,
+   "first": 1926,
+   "line": "throw champion can't find the rim. And there's a reason.",
+   "note": "Pip realizes what the orb is taking"
+  },
+  {
+   "id": "S27",
+   "size": "wide",
+   "key": 44,
+   "len": 78,
+   "first": 2004,
+   "line": "Your cerebellum holds about eighty percent of your",
+   "note": "Mo's shot dies on the rim and falls away; the orb turns red"
+  },
+  {
+   "id": "S28",
+   "size": "wide",
+   "key": 48,
+   "len": 60,
+   "first": 2082,
+   "line": "brain's neurons. It is the part that",
+   "note": "a brain hologram unfolds above the desk; the cerebellum lights"
+  },
+  {
+   "id": "S29",
+   "size": "close-up",
+   "key": 44,
+   "len": 99,
+   "first": 2142,
+   "line": "makes movement smooth and automatic. Borrow that, and you're",
+   "note": "80% of the brain's neurons, counting up in the dark"
+  },
+  {
+   "id": "S30",
+   "size": "extreme close-up",
+   "key": 36,
+   "len": 99,
+   "first": 2241,
+   "line": "not copying a talent. You're taking the machinery behind it.",
+   "note": "Pip understands: the skill is not in the hands"
+  },
+  {
+   "id": "S31",
+   "size": "wide two-shot",
+   "key": 44,
+   "len": 99,
+   "first": 2340,
+   "line": "That's real. And the person you borrowed from is standing in the dark,",
+   "note": "Mo reaches for the orb; Pip pulls it back"
+  },
+  {
+   "id": "S32",
+   "size": "wide, low angle",
+   "key": 44,
+   "len": 99,
+   "first": 2439,
+   "line": "wondering what they lost. Which means the world notices.",
+   "note": "the suit walks in from the far end of the library; the room goes quiet"
+  },
+  {
+   "id": "S33",
+   "size": "medium",
+   "key": 40,
+   "len": 99,
+   "first": 2538,
+   "line": "A coach. A hospital. A stranger who suddenly can't do",
+   "note": "the suit points at the orb; Pip backs away"
+  },
+  {
+   "id": "S34",
+   "size": "medium",
+   "key": 40,
+   "len": 99,
+   "first": 2637,
+   "line": "the one thing they built their life around. They don't know your name,",
+   "note": "Mo at the piano, the suit behind him, the countdown between them"
+  },
+  {
+   "id": "S35",
+   "size": "wide",
+   "key": 44,
+   "len": 99,
+   "first": 2736,
+   "line": "but they know something is missing. The crowd is watching. The cameras",
+   "note": "Pip at the table, the suit in the doorway, the lamp swinging"
+  },
+  {
+   "id": "S36",
+   "size": "extreme close-up",
+   "key": 36,
+   "len": 99,
+   "first": 2835,
+   "line": "are rolling. And the clock is still running. You can't hide",
+   "note": "the countdown ring burns; a hand closes around the orb"
+  },
+  {
+   "id": "S37",
+   "size": "wide",
+   "key": 48,
+   "len": 99,
+   "first": 2934,
+   "line": "a missing skill. Now you have ten minutes left. You can finish",
+   "note": "the suit, Pip, and Mo under the dying lamp; the clock is still running"
+  },
+  {
+   "id": "S38",
+   "size": "medium two-shot",
+   "key": 44,
+   "len": 99,
+   "first": 3033,
+   "line": "the performance. Save the patient. Win the game. Or",
+   "note": "Pip holds the orb out; Mo looks at what it has cost"
+  },
+  {
+   "id": "S39",
+   "size": "close-up",
+   "key": 36,
+   "len": 99,
+   "first": 3132,
+   "line": "you can give it back, and go back to being ordinary. The person you borrowed",
+   "note": "Pip decides: give it back"
+  },
+  {
+   "id": "S40",
+   "size": "close-up",
+   "key": 36,
+   "len": 99,
+   "first": 3231,
+   "line": "from is waiting. And they are not the only one. Because if a skill",
+   "note": "Mo nods, tired, the light leaving his face"
+  },
+  {
+   "id": "S41",
+   "size": "wide",
+   "key": 44,
+   "len": 99,
+   "first": 3330,
+   "line": "can be borrowed, it can be kept. What happens when the clock hits",
+   "note": "the orb passes from Pip's hands back to Mo; the ring stops"
+  },
+  {
+   "id": "S42",
+   "size": "wide, low angle",
+   "key": 48,
+   "len": 99,
+   "first": 3429,
+   "line": "zero, and you don't let go? The orb goes dark. Then",
+   "note": "the countdown hits zero; the library lights die one by one"
+  },
+  {
+   "id": "S43",
+   "size": "extreme close-up",
+   "key": 50,
+   "len": 84,
+   "first": 3528,
+   "line": "it opens its eyes.",
+   "note": "the orb stays lit in the dark; Pip's eyes catch the red glow"
+  }
+ ],
+ "fx": [
+  {
+   "kind": "flash",
+   "color": "#FFD9A0",
+   "o": 0.65,
+   "f": 686
+  },
+  {
+   "kind": "shake",
+   "len": 8,
+   "amp": 8,
+   "f": 2008
+  },
+  {
+   "kind": "flash",
+   "color": "#7CE0D3",
+   "o": 0.25,
+   "f": 2086
+  },
+  {
+   "kind": "shake",
+   "len": 10,
+   "amp": 6,
+   "f": 3435
+  },
+  {
+   "kind": "flash",
+   "color": "#FF5A4E",
+   "o": 0.35,
+   "f": 3530
+  }
+ ],
+ "audio": {
+  "voice": "borrow-skill-3d/voice.wav",
+  "sfx": "borrow-skill-3d/sfx.wav",
+  "voiceVol": 0.7381,
+  "sfxVol": 0.8,
+  "music": "borrow-skill-3d/music.wav",
+  "musicVol": 0.0819
+ }
+}

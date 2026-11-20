@@ -1,0 +1,8 @@
+.env
+.env.*
+node_modules/
+out/
+__pycache__/
+*.pyc
+ara3d-gen/
+what-if-studio.backup-*/

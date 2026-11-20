@@ -1,0 +1,1157 @@
+{
+ "id": "BorrowSkill3D",
+ "slug": "borrow-skill-3d",
+ "target": [
+  120,
+  130
+ ],
+ "topic": "What if you could borrow a skill for ten minutes?",
+ "title": [
+  "WHAT IF YOU COULD",
+  "BORROW A SKILL?"
+ ],
+ "accent": "BORROW",
+ "power": {
+  "word": "Borrow.",
+  "rule": "ten minutes, but the owner loses it while you have it",
+  "look": "a glowing skill orb passes from hand to hand while a countdown ring drains"
+ },
+ "script": [
+  {
+   "beat": "1 cold open: three demos, then the promise",
+   "text": "Imagine you could borrow any skill for ten minutes. Not learn it. Borrow it. You sit at a piano, and your hands already know Chopin. You step into an operating room, and a surgeon's muscle memory takes over. You launch a basketball from half court, and the net doesn't even move. Ten minutes of genius. No practice. No years. No failure. For ten minutes, the impossible is ordinary."
+  },
+  {
+   "beat": "2 the premise and the rule",
+   "text": "What if you could borrow a skill for ten minutes? One rule: while you use it, the owner loses it. The pianist forgets the piece. The surgeon freezes. The champion can't find the rim. And the clock is already running. Ten minutes is shorter than it sounds."
+  },
+  {
+   "beat": "3 the fun part: escalating wins",
+   "text": "At first, it feels like a cheat code. Ace the exam. Fix the engine. Land the trick. Play the song your grandmother loves. For ten minutes, you are the person you always wanted to be. The skill doesn't just live in your hands. It lives in your head, in the quiet part of your brain that turns thought into motion. You don't just know the move. You feel it coming."
+  },
+  {
+   "beat": "4 the turn: the cost, with one real number",
+   "text": "But here's the cost. While you borrow the skill, the owner loses it. The pianist forgets the piece. The surgeon freezes at the table. The free-throw champion can't find the rim. And there's a reason. Your cerebellum holds about eighty percent of your brain's neurons. It is the part that makes movement smooth and automatic. Borrow that, and you're not copying a talent. You're taking the machinery behind it. That's real. And the person you borrowed from is standing in the dark, wondering what they lost."
+  },
+  {
+   "beat": "5 noticed: the world reacts",
+   "text": "Which means the world notices. A coach. A hospital. A stranger who suddenly can't do the one thing they built their life around. They don't know your name, but they know something is missing. The crowd is watching. The cameras are rolling. And the clock is still running. You can't hide a missing skill."
+  },
+  {
+   "beat": "6 the choice: give it back, or keep it",
+   "text": "Now you have ten minutes left. You can finish the performance. Save the patient. Win the game. Or you can give it back, and go back to being ordinary. The person you borrowed from is waiting. And they are not the only one."
+  },
+  {
+   "beat": "7 the cliffhanger",
+   "text": "Because if a skill can be borrowed, it can be kept. What happens when the clock hits zero, and you don't let go? The orb goes dark. Then it opens its eyes."
+  }
+ ],
+ "science": [
+  {
+   "claim": "The cerebellum holds about 80% of the brain's neurons.",
+   "working": "Azevedo et al. (2009) counted 69.03 billion neurons in the cerebellum and 16.34 billion in the cerebral cortex, out of 86.06 billion total. 69.03 / 86.06 = 0.802, about 80%. The cerebellum is only about 10% of brain mass.",
+   "source": "Azevedo et al., 2009, Journal of Comparative Neurology; Herculano-Houzel, 2010, Frontiers in Neuroanatomy"
+  }
+ ],
+ "cast": [
+  "pip",
+  "mo"
+ ],
+ "voice": {
+  "id": "TX3LPaxmHKxFdv7VOQHJ",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+   "stability": 0.4,
+   "similarity_boost": 0.8,
+   "style": 0.35,
+   "use_speaker_boost": true
+  }
+ },
+ "gaps": {
+  "sentence": 0.32,
+  "question": 0.45,
+  "pairs": {
+   "failure|What": 0.5,
+   "running|At": 0.4,
+   "motion|But": 0.5,
+   "real|Which": 0.5,
+   "running|Now": 0.4,
+   "waiting|Because": 0.6
+  }
+ },
+ "pace": {
+  "min_cuts_per_min": 20,
+  "max_shot_seconds": 4.0
+ },
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "set": "skill library",
+   "key": 40,
+   "note": "Pip walks in from the dark, the piano and the glowing orb waiting ahead"
+  },
+  {
+   "id": "S2",
+   "size": "medium",
+   "set": "piano",
+   "key": 40,
+   "note": "Pip at the piano, hands hovering, the orb pulsing over the keys"
+  },
+  {
+   "id": "S3",
+   "size": "macro insert",
+   "set": "piano keys",
+   "key": 36,
+   "note": "hands strike the keys; a ribbon of warm light lifts off"
+  },
+  {
+   "id": "S4",
+   "size": "wide",
+   "set": "surgery bay",
+   "key": 40,
+   "note": "Mo crosses the library toward the surgical bay, the overhead lamp blooming on"
+  },
+  {
+   "id": "S5",
+   "size": "wide",
+   "set": "hoop",
+   "key": 40,
+   "note": "Mo launches the ball across the library, the orb trailing the release"
+  },
+  {
+   "id": "S6",
+   "size": "insert",
+   "set": "hoop net",
+   "key": 36,
+   "note": "the ball drops through the net without touching it"
+  },
+  {
+   "id": "S7",
+   "size": "wide",
+   "set": "skill library",
+   "key": 40,
+   "note": "Pip and Mo share the warm library, the orb floating between them"
+  },
+  {
+   "id": "S8",
+   "size": "wide, slow push",
+   "set": "skill library",
+   "key": 36,
+   "note": "both characters under the lamp; the impossible feels ordinary"
+  },
+  {
+   "id": "S9",
+   "size": "title, wide",
+   "set": "skill library wide",
+   "key": 60,
+   "note": "the title over the whole dusk library; both characters small under the lamp"
+  },
+  {
+   "id": "S10",
+   "size": "medium",
+   "set": "rental desk",
+   "key": 40,
+   "note": "Pip holds the orb; a countdown ring drains around it"
+  },
+  {
+   "id": "S11",
+   "size": "insert",
+   "set": "Pip hands and orb",
+   "key": 36,
+   "note": "the rule lands: the orb brightens, the ring ticks down"
+  },
+  {
+   "id": "S12",
+   "size": "medium",
+   "set": "piano",
+   "key": 40,
+   "note": "Mo at the piano, hands frozen above the keys, confused"
+  },
+  {
+   "id": "S13",
+   "size": "medium",
+   "set": "surgery bay",
+   "key": 40,
+   "note": "Pip at the surgical table, suddenly still, the lamp buzzing"
+  },
+  {
+   "id": "S14",
+   "size": "wide, slow push",
+   "set": "skill library wide",
+   "key": 48,
+   "note": "the clock is already running; the room leans into shadow"
+  },
+  {
+   "id": "S15",
+   "size": "wide",
+   "set": "piano",
+   "key": 40,
+   "note": "Pip plays, the library warming, the orb orbiting the keys"
+  },
+  {
+   "id": "S16",
+   "size": "medium",
+   "set": "piano",
+   "key": 40,
+   "note": "Pip smiles; the borrowed skill looks effortless"
+  },
+  {
+   "id": "S17",
+   "size": "wide",
+   "set": "hoop",
+   "key": 40,
+   "note": "Mo shoots again, confident, the ball arcing toward the net"
+  },
+  {
+   "id": "S18",
+   "size": "insert",
+   "set": "hoop net",
+   "key": 36,
+   "note": "nothing but net; the orb flashes gold"
+  },
+  {
+   "id": "S19",
+   "size": "medium",
+   "set": "rental desk",
+   "key": 40,
+   "note": "Mo turns the orb over, smug, the countdown reflected in his eyes"
+  },
+  {
+   "id": "S20",
+   "size": "close-up",
+   "set": "Pip face",
+   "key": 36,
+   "note": "Pip laughs, lit by the orb"
+  },
+  {
+   "id": "S21",
+   "size": "wide",
+   "set": "skill library wide",
+   "key": 44,
+   "note": "the two of them in the warm library, the orb between them"
+  },
+  {
+   "id": "S22",
+   "size": "over the shoulder",
+   "set": "piano",
+   "key": 40,
+   "note": "Pip at the keys, the orb reflected in the polished wood"
+  },
+  {
+   "id": "S23",
+   "size": "wide, low angle",
+   "set": "piano",
+   "key": 44,
+   "note": "the light shifts; Mo at the piano as his hands begin to shake"
+  },
+  {
+   "id": "S24",
+   "size": "medium",
+   "set": "piano",
+   "key": 40,
+   "note": "Mo tries the same phrase and nothing comes; the orb dims"
+  },
+  {
+   "id": "S25",
+   "size": "wide",
+   "set": "surgery bay",
+   "key": 44,
+   "note": "Pip at the table, frozen, the surgical lamp flickering"
+  },
+  {
+   "id": "S26",
+   "size": "close-up",
+   "set": "Pip face",
+   "key": 36,
+   "note": "Pip realizes what the orb is taking"
+  },
+  {
+   "id": "S27",
+   "size": "wide",
+   "set": "hoop",
+   "key": 44,
+   "note": "Mo's shot dies on the rim and falls away; the orb turns red"
+  },
+  {
+   "id": "S28",
+   "size": "wide",
+   "set": "brain hologram",
+   "key": 48,
+   "note": "a brain hologram unfolds above the desk; the cerebellum lights"
+  },
+  {
+   "id": "S29",
+   "size": "close-up",
+   "set": "brain hologram",
+   "key": 44,
+   "note": "80% of the brain's neurons, counting up in the dark"
+  },
+  {
+   "id": "S30",
+   "size": "extreme close-up",
+   "set": "Pip face",
+   "key": 36,
+   "note": "Pip understands: the skill is not in the hands"
+  },
+  {
+   "id": "S31",
+   "size": "wide two-shot",
+   "set": "rental desk",
+   "key": 44,
+   "note": "Mo reaches for the orb; Pip pulls it back"
+  },
+  {
+   "id": "S32",
+   "size": "wide, low angle",
+   "set": "skill library",
+   "key": 44,
+   "note": "the suit walks in from the far end of the library; the room goes quiet"
+  },
+  {
+   "id": "S33",
+   "size": "medium",
+   "set": "rental desk",
+   "key": 40,
+   "note": "the suit points at the orb; Pip backs away"
+  },
+  {
+   "id": "S34",
+   "size": "medium",
+   "set": "piano",
+   "key": 40,
+   "note": "Mo at the piano, the suit behind him, the countdown between them"
+  },
+  {
+   "id": "S35",
+   "size": "wide",
+   "set": "surgery bay",
+   "key": 44,
+   "note": "Pip at the table, the suit in the doorway, the lamp swinging"
+  },
+  {
+   "id": "S36",
+   "size": "extreme close-up",
+   "set": "orb",
+   "key": 36,
+   "note": "the countdown ring burns; a hand closes around the orb"
+  },
+  {
+   "id": "S37",
+   "size": "wide",
+   "set": "skill library wide",
+   "key": 48,
+   "note": "the suit, Pip, and Mo under the dying lamp; the clock is still running"
+  },
+  {
+   "id": "S38",
+   "size": "medium two-shot",
+   "set": "rental desk",
+   "key": 44,
+   "note": "Pip holds the orb out; Mo looks at what it has cost"
+  },
+  {
+   "id": "S39",
+   "size": "close-up",
+   "set": "Pip face",
+   "key": 36,
+   "note": "Pip decides: give it back"
+  },
+  {
+   "id": "S40",
+   "size": "close-up",
+   "set": "Mo face",
+   "key": 36,
+   "note": "Mo nods, tired, the light leaving his face"
+  },
+  {
+   "id": "S41",
+   "size": "wide",
+   "set": "rental desk",
+   "key": 44,
+   "note": "the orb passes from Pip's hands back to Mo; the ring stops"
+  },
+  {
+   "id": "S42",
+   "size": "wide, low angle",
+   "set": "skill library wide",
+   "key": 48,
+   "note": "the countdown hits zero; the library lights die one by one"
+  },
+  {
+   "id": "S43",
+   "size": "extreme close-up",
+   "set": "orb and Pip face",
+   "key": 50,
+   "note": "the orb stays lit in the dark; Pip's eyes catch the red glow"
+  }
+ ],
+ "tail": 2.0,
+ "sound": {
+  "clips": {
+   "room_tone": [
+    "quiet indoor room tone in the evening, faint distant city hum, no voices",
+    12.5
+   ],
+   "sparkle": [
+    "a short bright magical sparkle twinkle, cartoon",
+    0.8
+   ],
+   "fall_whoosh": [
+    "a small object falling fast through the air, short soft whoosh",
+    0.6
+   ],
+   "catch": [
+    "a hand catching a ceramic mug mid-air, soft slap and thud",
+    0.5
+   ],
+   "clink": [
+    "a ceramic coffee mug knocked by a hand on a wooden desk, short clink and scrape",
+    0.7
+   ],
+   "step": [
+    "a single sneaker footstep on a wooden stair, close",
+    0.5
+   ],
+   "gasp": [
+    "two young people gasping in surprise at the same moment, cartoon, short",
+    0.8
+   ],
+   "gulp": [
+    "a nervous cartoon gulp, short",
+    0.5
+   ],
+   "ding": [
+    "a correct answer ding, bright bell chime",
+    0.8
+   ],
+   "buzzer": [
+    "a game show wrong answer buzzer, short",
+    0.8
+   ],
+   "laugh": [
+    "a small classroom of kids bursting out laughing",
+    1.6
+   ],
+   "pop": [
+    "a cartoon speech bubble pop, short and bright",
+    0.5
+   ],
+   "title_boom": [
+    "a cinematic whoosh rising into a deep boom impact",
+    1.6
+   ],
+   "clock_back": [
+    "a clock ticking very fast then spinning backwards, mechanical ratchet whirr",
+    1.6
+   ],
+   "drone_hit": [
+    "a dark ominous low drone hit, deep cinematic horror sting",
+    2.6
+   ],
+   "crack": [
+    "glass cracking sharply, the crack spreading across a pane",
+    1.1
+   ],
+   "bulb_pop": [
+    "a small light bulb popping out, a tiny glass tink and fizz",
+    0.5
+   ],
+   "power_hum": [
+    "a deep electrical power grid hum swelling louder, transformers buzzing, rising",
+    3.0
+   ],
+   "power_down": [
+    "a whole city losing power, a deep electrical power-down whine dropping in pitch into silence",
+    2.5
+   ],
+   "counter_tick": [
+    "a fast mechanical counter ticking up rapidly, digits rolling over, getting faster",
+    1.6
+   ],
+   "music": [
+    "original cinematic dusk score, warm analog pads, slow pulsing bass, glassy arpeggio, curious and slightly ominous, no drums, no vocals, seamless background bed, 135 seconds",
+    135.0
+   ]
+  },
+  "events": [
+   [
+    "S1+12",
+    "step",
+    0.35
+   ],
+   [
+    "S1+38",
+    "step",
+    0.3
+   ],
+   [
+    "S1+62",
+    "sparkle",
+    0.4
+   ],
+   [
+    "S2+18",
+    "clink",
+    0.35
+   ],
+   [
+    "S2+34",
+    "clink",
+    0.3
+   ],
+   [
+    "S2+52",
+    "sparkle",
+    0.3
+   ],
+   [
+    "S3+8",
+    "clink",
+    0.5
+   ],
+   [
+    "S3+22",
+    "clink",
+    0.45
+   ],
+   [
+    "S3+34",
+    "sparkle",
+    0.35
+   ],
+   [
+    "S4+12",
+    "step",
+    0.3
+   ],
+   [
+    "S4+38",
+    "step",
+    0.3
+   ],
+   [
+    "S4+54",
+    "power_hum",
+    0.25,
+    "onset",
+    "S4+80"
+   ],
+   [
+    "S5+18",
+    "sparkle",
+    0.35
+   ],
+   [
+    "S5+38",
+    "clink",
+    0.25
+   ],
+   [
+    "S6+12",
+    "sparkle",
+    0.45
+   ],
+   [
+    "S6+28",
+    "ding",
+    0.25
+   ],
+   [
+    "S7+46",
+    "fall_whoosh",
+    0.35,
+    "peak"
+   ],
+   [
+    "S7+52",
+    "sparkle",
+    0.4
+   ],
+   [
+    "S8+10",
+    "ding",
+    0.45
+   ],
+   [
+    "S9+8",
+    "title_boom",
+    0.7,
+    "peak"
+   ],
+   [
+    "S10+6",
+    "power_hum",
+    0.22,
+    "onset",
+    "S10+70"
+   ],
+   [
+    "S10+22",
+    "counter_tick",
+    0.25,
+    "onset",
+    "S10+70"
+   ],
+   [
+    "S11+8",
+    "counter_tick",
+    0.28,
+    "onset",
+    "S11+50"
+   ],
+   [
+    "S12+22",
+    "gulp",
+    0.25
+   ],
+   [
+    "S13+18",
+    "sparkle",
+    0.3
+   ],
+   [
+    "S13+46",
+    "gasp",
+    0.35
+   ],
+   [
+    "S14+10",
+    "clock_back",
+    0.35,
+    "onset",
+    "S14+70"
+   ],
+   [
+    "S14+44",
+    "drone_hit",
+    0.55
+   ],
+   [
+    "S15+18",
+    "clink",
+    0.4
+   ],
+   [
+    "S15+34",
+    "clink",
+    0.35
+   ],
+   [
+    "S15+52",
+    "clink",
+    0.4
+   ],
+   [
+    "S15+66",
+    "sparkle",
+    0.3
+   ],
+   [
+    "S16+20",
+    "sparkle",
+    0.3
+   ],
+   [
+    "S17+42",
+    "fall_whoosh",
+    0.4,
+    "peak"
+   ],
+   [
+    "S17+50",
+    "sparkle",
+    0.4
+   ],
+   [
+    "S18+8",
+    "ding",
+    0.45
+   ],
+   [
+    "S19+18",
+    "sparkle",
+    0.35
+   ],
+   [
+    "S19+48",
+    "pop",
+    0.35
+   ],
+   [
+    "S20+12",
+    "laugh",
+    0.25,
+    "onset",
+    "S20+55"
+   ],
+   [
+    "S21+20",
+    "sparkle",
+    0.3
+   ],
+   [
+    "S22+18",
+    "clink",
+    0.35
+   ],
+   [
+    "S23+6",
+    "drone_hit",
+    0.55
+   ],
+   [
+    "S23+34",
+    "power_down",
+    0.3
+   ],
+   [
+    "S24+18",
+    "gulp",
+    0.3
+   ],
+   [
+    "S24+44",
+    "crack",
+    0.3
+   ],
+   [
+    "S25+16",
+    "gasp",
+    0.3
+   ],
+   [
+    "S25+48",
+    "power_down",
+    0.35
+   ],
+   [
+    "S26+10",
+    "gasp",
+    0.35
+   ],
+   [
+    "S27+18",
+    "fall_whoosh",
+    0.3,
+    "peak"
+   ],
+   [
+    "S27+42",
+    "buzzer",
+    0.45
+   ],
+   [
+    "S27+52",
+    "crack",
+    0.3
+   ],
+   [
+    "S28+10",
+    "sparkle",
+    0.4
+   ],
+   [
+    "S28+22",
+    "power_hum",
+    0.25,
+    "onset",
+    "S28+75"
+   ],
+   [
+    "S29+6",
+    "counter_tick",
+    0.3,
+    "onset",
+    "S29+65"
+   ],
+   [
+    "S30+10",
+    "gasp",
+    0.35
+   ],
+   [
+    "S31+18",
+    "sparkle",
+    0.3
+   ],
+   [
+    "S31+38",
+    "gasp",
+    0.3
+   ],
+   [
+    "S32+18",
+    "step",
+    0.35
+   ],
+   [
+    "S32+38",
+    "step",
+    0.3
+   ],
+   [
+    "S32+60",
+    "drone_hit",
+    0.55
+   ],
+   [
+    "S33+18",
+    "buzzer",
+    0.35
+   ],
+   [
+    "S33+40",
+    "counter_tick",
+    0.2,
+    "onset",
+    "S33+70"
+   ],
+   [
+    "S34+20",
+    "gasp",
+    0.3
+   ],
+   [
+    "S35+18",
+    "power_down",
+    0.4
+   ],
+   [
+    "S36+6",
+    "counter_tick",
+    0.3,
+    "onset",
+    "S36+60"
+   ],
+   [
+    "S36+36",
+    "sparkle",
+    0.4
+   ],
+   [
+    "S37+8",
+    "drone_hit",
+    0.5
+   ],
+   [
+    "S37+22",
+    "counter_tick",
+    0.25,
+    "onset",
+    "S37+70"
+   ],
+   [
+    "S38+6",
+    "counter_tick",
+    0.28,
+    "onset",
+    "S38+60"
+   ],
+   [
+    "S38+32",
+    "sparkle",
+    0.4
+   ],
+   [
+    "S39+8",
+    "counter_tick",
+    0.25,
+    "onset",
+    "S39+55"
+   ],
+   [
+    "S40+18",
+    "gulp",
+    0.3
+   ],
+   [
+    "S40+30",
+    "counter_tick",
+    0.22,
+    "onset",
+    "S40+55"
+   ],
+   [
+    "S41+18",
+    "sparkle",
+    0.35
+   ],
+   [
+    "S41+30",
+    "power_hum",
+    0.3,
+    "onset",
+    "S41+65"
+   ],
+   [
+    "S42+18",
+    "power_down",
+    0.5
+   ],
+   [
+    "S42+42",
+    "drone_hit",
+    0.65
+   ],
+   [
+    "S43+8",
+    "crack",
+    0.5
+   ],
+   [
+    "S43+28",
+    "drone_hit",
+    0.55
+   ],
+   [
+    "S43+46",
+    "sparkle",
+    0.35
+   ]
+  ],
+  "repeats": [
+   {
+    "at": "f:0",
+    "clip": "room_tone",
+    "n": 11,
+    "every": 360,
+    "gain": [
+     0.07,
+     0.09
+    ],
+    "pitch": [
+     1,
+     1
+    ]
+   },
+   {
+    "at": "S42+20",
+    "clip": "bulb_pop",
+    "n": 12,
+    "every": 4,
+    "gain": [
+     0.1,
+     0.2
+    ],
+    "pitch": [
+     0.85,
+     1.15
+    ]
+   }
+  ],
+  "music": {
+   "clip": "music"
+  },
+  "levels": {
+   "sfx_lu": 1.6,
+   "music_lu": -10.0
+  }
+ },
+ "edit": [
+  {
+   "shot": "S1",
+   "at": "f:0"
+  },
+  {
+   "shot": "S2",
+   "at": "f:84"
+  },
+  {
+   "shot": "S3",
+   "at": "f:168"
+  },
+  {
+   "shot": "S4",
+   "at": "f:252"
+  },
+  {
+   "shot": "S5",
+   "at": "f:351"
+  },
+  {
+   "shot": "S6",
+   "at": "f:420"
+  },
+  {
+   "shot": "S7",
+   "at": "f:504"
+  },
+  {
+   "shot": "S8",
+   "at": "f:588"
+  },
+  {
+   "shot": "S9",
+   "at": "f:682"
+  },
+  {
+   "shot": "S10",
+   "at": "f:759"
+  },
+  {
+   "shot": "S11",
+   "at": "f:837"
+  },
+  {
+   "shot": "S12",
+   "at": "f:915"
+  },
+  {
+   "shot": "S13",
+   "at": "f:993"
+  },
+  {
+   "shot": "S14",
+   "at": "f:1071"
+  },
+  {
+   "shot": "S15",
+   "at": "f:1149"
+  },
+  {
+   "shot": "S16",
+   "at": "f:1227"
+  },
+  {
+   "shot": "S17",
+   "at": "f:1305"
+  },
+  {
+   "shot": "S18",
+   "at": "f:1383"
+  },
+  {
+   "shot": "S19",
+   "at": "f:1461"
+  },
+  {
+   "shot": "S20",
+   "at": "f:1530"
+  },
+  {
+   "shot": "S21",
+   "at": "f:1599"
+  },
+  {
+   "shot": "S22",
+   "at": "f:1647"
+  },
+  {
+   "shot": "S23",
+   "at": "f:1691"
+  },
+  {
+   "shot": "S24",
+   "at": "f:1770"
+  },
+  {
+   "shot": "S25",
+   "at": "f:1848"
+  },
+  {
+   "shot": "S26",
+   "at": "f:1926"
+  },
+  {
+   "shot": "S27",
+   "at": "f:2004"
+  },
+  {
+   "shot": "S28",
+   "at": "f:2082"
+  },
+  {
+   "shot": "S29",
+   "at": "f:2142"
+  },
+  {
+   "shot": "S30",
+   "at": "f:2241"
+  },
+  {
+   "shot": "S31",
+   "at": "f:2340"
+  },
+  {
+   "shot": "S32",
+   "at": "f:2439"
+  },
+  {
+   "shot": "S33",
+   "at": "f:2538"
+  },
+  {
+   "shot": "S34",
+   "at": "f:2637"
+  },
+  {
+   "shot": "S35",
+   "at": "f:2736"
+  },
+  {
+   "shot": "S36",
+   "at": "f:2835"
+  },
+  {
+   "shot": "S37",
+   "at": "f:2934"
+  },
+  {
+   "shot": "S38",
+   "at": "f:3033"
+  },
+  {
+   "shot": "S39",
+   "at": "f:3132"
+  },
+  {
+   "shot": "S40",
+   "at": "f:3231"
+  },
+  {
+   "shot": "S41",
+   "at": "f:3330"
+  },
+  {
+   "shot": "S42",
+   "at": "f:3429"
+  },
+  {
+   "shot": "S43",
+   "at": "f:3528"
+  }
+ ],
+ "fx": [
+  {
+   "at": "S9+4",
+   "kind": "flash",
+   "color": "#FFD9A0",
+   "o": 0.65
+  },
+  {
+   "at": "S27+4",
+   "kind": "shake",
+   "len": 8,
+   "amp": 8
+  },
+  {
+   "at": "S28+4",
+   "kind": "flash",
+   "color": "#7CE0D3",
+   "o": 0.25
+  },
+  {
+   "at": "S42+6",
+   "kind": "shake",
+   "len": 10,
+   "amp": 6
+  },
+  {
+   "at": "S43+2",
+   "kind": "flash",
+   "color": "#FF5A4E",
+   "o": 0.35
+  }
+ ]
+}

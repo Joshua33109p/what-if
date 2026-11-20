@@ -1,0 +1,34 @@
+{
+  "name": "what-if-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "What If animation studio: long-form 90 s+ episodes with rigged 3D characters, skeletal animation and synced narration (Remotion + Three.js).",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --port 3430",
+    "typecheck": "tsc --noEmit",
+    "postinstall": "node scripts/fix-termux.js",
+    "setup:termux": "node scripts/fix-termux.js",
+    "rig:build": "python rig/custom_rig/build.py",
+    "rig:validate": "python rig/custom_rig/validate.py public/models/custom/custom_rig.glb && python scripts/validate-rig.py public/models/custom/custom_rig.glb",
+    "rig:export:ara": "bash scripts/export-ara.sh",
+    "rig:validate:ara": "python scripts/validate-rig.py public/models/ara/ara-pip.glb && python scripts/validate-rig.py public/models/ara/ara-mo.glb",
+    "rig:review:ara": "bash scripts/ara-review.sh",
+    "lipsync": "python scripts/lipsync.py"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/bundler": "4.0.530",
+    "@remotion/cli": "4.0.530",
+    "@remotion/renderer": "4.0.530",
+    "@remotion/three": "4.0.530",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.530",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/three": "^0.180.0",
+    "typescript": "5.8.2"
+  }
+}

@@ -1,0 +1,35 @@
+Ara 3D Gen character assets
+==========================
+
+Source: https://github.com/olatunde85/3d-gen (local sibling checkout: ara3d-gen)
+
+Code
+----
+Ara 3D Gen is MIT licensed: Copyright (c) 2026 Josh Ola and Ara 3D Gen contributors. The full MIT text is in
+ara3d-gen/LICENSE. This project does not vendor ara3d-gen or its source license.
+
+MakeHuman data
+--------------
+The body meshes and MakeHuman-derived data are CC0. See:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+CMU motion capture
+------------------
+The CMU Graphics Lab Motion Capture Database is free for commercial and non-commercial use. It may not be resold
+directly as a motion-capture data product. The source asks for this acknowledgement:
+
+  "The motion capture data used in this project was obtained from mocap.cs.cmu.edu.
+   The database was created with funding from NSF EIA-0196217."
+
+Our exported GLBs are original character assemblies made for our episodes. They may be used commercially or
+non-commercially in our videos without attribution to Ara 3D Gen or MakeHuman. This does not grant rights to
+redistribute the underlying CMU motion-capture database as data.
+
+Generated assets in this project
+--------------------------------
+- public/models/ara/ara-pip.glb
+- public/models/ara/ara-pip.params.json
+- public/models/ara/ara-mo.glb
+- public/models/ara/ara-mo.params.json
+
+Retain this notice when redistributing the generated character files.

@@ -1,0 +1,154 @@
+{
+  "id": "BorrowSkill",
+  "slug": "borrow-skill",
+  "target": [15, 25],
+  "topic": "What if you could borrow a skill for ten minutes?",
+  "title": ["WHAT IF YOU COULD", "BORROW A SKILL?"],
+  "accent": "BORROW",
+  "power": {
+    "word": "Borrow.",
+    "rule": "ten minutes, but the owner loses it while you have it",
+    "look": "a glowing skill orb passes from one pair of hands to another; a countdown ring drains around it"
+  },
+  "script": [
+    {
+      "beat": "1 cold open, demo 1 (small and selfish)",
+      "text": "Borrow piano hands. Ten minutes. You play Chopin."
+    },
+    {
+      "beat": "1 cold open, demo 2 (useful)",
+      "text": "Borrow a surgeon's hands. Ten minutes. Save a life."
+    },
+    {
+      "beat": "1 cold open, demo 3 (a little uncanny)",
+      "text": "Borrow a free throw. Ten minutes. Nothing but net."
+    },
+    {
+      "beat": "2 the premise (title card)",
+      "text": "What if you could borrow any skill for ten minutes?"
+    },
+    {
+      "beat": "2 the rule and 4 the turn: the cost, one real fact",
+      "text": "One rule: the owner loses it while you have it. Skill isn't in your hands. Your cerebellum holds 80% of your brain's neurons. That's real."
+    },
+    {
+      "beat": "5-7 folded into a question",
+      "text": "So who's borrowing yours?"
+    }
+  ],
+  "science": [
+    {
+      "claim": "The cerebellum holds about 80% of the brain's neurons.",
+      "working": "Azevedo et al. (2009) counted 69.03 billion neurons in the cerebellum and 16.34 billion in the cerebral cortex, out of 86.06 billion total. 69.03 / 86.06 = 0.802, about 80%. The cerebellum is only about 10% of brain mass.",
+      "source": "Azevedo et al., 2009, Journal of Comparative Neurology; Herculano-Houzel, 2010, Frontiers in Neuroanatomy"
+    }
+  ],
+  "cast": ["pip", "mo"],
+  "shots": [
+    {
+      "id": "S1",
+      "size": "medium",
+      "set": "piano",
+      "key": 20,
+      "note": "Pip at the piano in the dusk skill library, hands hovering over the keys, a glowing skill orb above them"
+    },
+    {
+      "id": "S2",
+      "size": "macro insert",
+      "set": "piano keys",
+      "key": 14,
+      "note": "hands strike the keys; the notes lift off as warm light"
+    },
+    {
+      "id": "S3",
+      "size": "medium",
+      "set": "surgery bay",
+      "key": 20,
+      "note": "Pip in scrubs over a patient, hands steady, the orb spinning above the tray"
+    },
+    {
+      "id": "S4",
+      "size": "close-up",
+      "set": "surgical hands",
+      "key": 14,
+      "note": "a glowing instrument makes one precise stitch"
+    },
+    {
+      "id": "S5",
+      "size": "wide, low angle",
+      "set": "hoop",
+      "key": 20,
+      "note": "Pip shoots at a hoop inside the library, the orb flaring at release"
+    },
+    {
+      "id": "S6",
+      "size": "insert",
+      "set": "hoop net",
+      "key": 14,
+      "note": "the ball drops through the net without touching it"
+    },
+    {
+      "id": "S7",
+      "size": "title, wide",
+      "set": "library wide",
+      "key": 30,
+      "note": "the title over the whole dusk library; Pip small between the piano, the surgical bay and the hoop"
+    },
+    {
+      "id": "S8",
+      "size": "medium two-shot",
+      "set": "rental desk",
+      "key": 20,
+      "note": "Pip holds the glowing orb; Mo, at the desk, slumps as the light leaves his hands"
+    },
+    {
+      "id": "S9",
+      "size": "close-up",
+      "set": "Mo's hands",
+      "key": 14,
+      "note": "the last thread of light drains out of Mo's fingers"
+    },
+    {
+      "id": "S10",
+      "size": "schematic",
+      "set": "brain hologram",
+      "key": 30,
+      "note": "a brain hologram; the cerebellum lights up and a counter runs to 80%"
+    },
+    {
+      "id": "S11",
+      "size": "extreme close-up",
+      "set": "Pip's face",
+      "key": 14,
+      "note": "Pip realizes what the orb is taking"
+    },
+    {
+      "id": "S12",
+      "size": "wide",
+      "set": "library wide",
+      "key": 30,
+      "note": "Mo reaches for Pip; the orb's countdown ring hits zero and the room goes dark"
+    }
+  ],
+  "edit": [
+    { "shot": "S1", "at": "Borrow", "look": "borrow" },
+    { "shot": "S2", "at": "Ten" },
+    { "shot": "S3", "at": "Borrow", "look": "borrow" },
+    { "shot": "S4", "at": "Ten" },
+    { "shot": "S5", "at": "Borrow", "look": "borrow" },
+    { "shot": "S6", "at": "Nothing" },
+    { "shot": "S7", "at": "What" },
+    { "shot": "S8", "at": "One", "look": "borrow" },
+    { "shot": "S9", "at": "Skill" },
+    { "shot": "S10", "at": "Your" },
+    { "shot": "S11", "at": "So" },
+    { "shot": "S12", "at": "who's" }
+  ],
+  "fx": [
+    { "at": "Borrow", "kind": "flash" },
+    { "at": "Borrow#2", "kind": "flash" },
+    { "at": "Borrow#3", "kind": "flash" },
+    { "at": "That's", "kind": "flash" },
+    { "at": "who's", "kind": "shake" }
+  ]
+}
